@@ -33,9 +33,10 @@ The pretrained checkpoint of the source face deformation network (DS) can be dow
     ```bash
     git clone https://github.com/Zielon/MICA.git
     cd MICA
+    bash ./install.sh
     ```
     - Replace `mica.py` in the MICA directory with the modified version provided from the following link:
-    [Modified mica.py](https://drive.google.com/file/d/1p0HTYdYCJTuonMiOMK2BB7m1wA-7qoq7/view?usp=drive_link)
+    [mica.py](https://drive.google.com/file/d/1p0HTYdYCJTuonMiOMK2BB7m1wA-7qoq7/view?usp=drive_link)
 
 
 3. **Install Dependencies**:
