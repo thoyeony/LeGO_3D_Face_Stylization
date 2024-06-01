@@ -36,6 +36,9 @@ The pretrained checkpoint of the source face deformation network (DS) can be dow
 
 3. **Download Checkpoints**:
     - Download the pretrained DS checkpoint from the link provided above and place it in the `ckpt` directory.
+  
+4. **Download MICA**:
+    - In the training process, we use flame module from [MICA]([https://drive.google.com/file/d/1GTQ90hhn09QEtBMQyQ_iuH7NVOrlia5P/view?usp=drive_link](https://github.com/Zielon/MICA)) directory. 
 
 ## Usage
 
