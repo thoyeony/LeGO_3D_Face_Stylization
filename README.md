@@ -28,17 +28,18 @@ The pretrained checkpoint of the source face deformation network (DS) can be dow
     git clone https://github.com/your-repo/LeGO_3D_Stylization.git
     cd LeGO_3D_Stylization
     ```
+2. **Download MICA**:
+    - In the training process, we use flame module from [MICA](https://github.com/Zielon/MICA) directory. And replace mica.py --> [mica.py]([https://github.com/Zielon/MICA](https://drive.google.com/drive/folders/1G6Csv0BJ6vuQ8wMm3vC88vAq_LBrCSrp)). 
 
-2. **Install Dependencies**:
+3. **Install Dependencies**:
     ```bash
     bash ./require.sh
     ```
 
-3. **Download Checkpoints**:
+4. **Download Checkpoints**:
     - Download the pretrained DS checkpoint from the link provided above and place it in the `ckpt` directory.
   
-4. **Download MICA**:
-    - In the training process, we use flame module from [MICA](https://github.com/Zielon/MICA) directory. 
+
 
 ## Usage
 
