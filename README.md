@@ -69,14 +69,14 @@ All styles to be trained are available under `train_exemplar/style`
 ## Inference
 
 
-# Contact
+# :mailbox_with_mail: Contact
 
 For any inquiries, please contact the authors:
 
 - **Soyeon Yoon**: [thoyeony@kaist.ac.kr](mailto:thoyeony@kaist.ac.kr)
 - **Kwan Yun**: [yunandy@kaist.ac.kr](mailto:yunandy@kaist.ac.kr)
 
-# Citation
+# mega: Citation
 ```bash
 @article{yoon2024lego,
   title={LeGO: Leveraging a Surface Deformation Network for Animatable Stylized Face Generation with One Example},
