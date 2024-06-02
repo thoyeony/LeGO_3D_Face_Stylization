@@ -3,7 +3,6 @@ import numpy as np
 import time
 import torch
 import trimesh
-#from pytorch3d.io import save_obj
 
 def create_mesh(model, filename, V_ref, F, embedding=None):
     """
