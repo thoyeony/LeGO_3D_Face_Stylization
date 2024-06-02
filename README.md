@@ -12,8 +12,7 @@ Recent advances in 3D face stylization have made significant strides in few to z
 
 ## Paper
 For more details, please refer to our paper:
-- [![Paper](https://img.shields.io/badge/Paper-Download-brightgreen?style=flat&logo=google-scholar)](link_to_your_paper)
-- [![arXiv](https://img.shields.io/badge/arXiv-2201.12345-brightgreen?style=flat&logo=arXiv)](link_to_your_arxiv)
+- [![arXiv](https://arxiv.org/abs/2403.15227)](link_to_your_arxiv)
 
 
 ## DS Checkpoints
