@@ -42,7 +42,7 @@ The pretrained checkpoint of the source face deformation network (DS) can be dow
     - Replace `models/` in the MICA directory with the folder provided from the following link:
       models/](https://drive.google.com/drive/folders/18lvZcKIfqb1rGdWO4-OijfikvcT7szT0?usp=drive_link)
     - Download [FLAME2020](https://flame.is.tue.mpg.de/) and place it in `data/`.
-    - Place `mica.tar/` under `LeGO_3D_Face_Stylization/`. 
+    - Place `mica.tar` under `LeGO_3D_Face_Stylization/`. 
 
 
 
