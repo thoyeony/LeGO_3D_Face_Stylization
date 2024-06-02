@@ -2,7 +2,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2201.12345-brightgreen?style=flat&logo=arXiv)](https://arxiv.org/abs/2403.15227)
 [![](https://img.shields.io/badge/project-page-red.svg)](https://kwanyun.github.io/lego/)
 
-### [[Project Page]](<https://kwanyun.github.io/lego/>) [[arXiv]](<https://arxiv.org/abs/2403.15227>) [[Paper]](<>) 
+### [[Project Page]](<https://kwanyun.github.io/lego/>) [[arXiv]](<https://arxiv.org/abs/2403.15227>) [[Paper]](paper/LeGO_CVPR2024.pdf) 
 
 ![Teaser Image](readme_images/teaser.png)
 
