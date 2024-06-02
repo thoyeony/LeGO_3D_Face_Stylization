@@ -57,16 +57,17 @@ The pretrained checkpoint of the source face deformation network (DS) can be dow
 
 ## Usage
 
+### Fine-tuning DT
+To finetune DT for stylization:
+```bash
+python main.py --train --config configs/train_config.yaml
+``` 
 
 ## Contact
 
 For any inquiries, please contact the authors:
 
 - **Soyeon Yoon**: [thoyeony@kaist.ac.kr](mailto:thoyeony@kaist.ac.kr)
-- **Kwan Yun**: [yunandy@kaist.ac.kr](mailto:yunandy@kaist.ac.kr)ß
+- **Kwan Yun**: [yunandy@kaist.ac.kr](mailto:yunandy@kaist.ac.kr)
 
-### Fine-tuning DT
-To finetune DT for stylization:
-```bash
-python main.py --train --config configs/train_config.yaml
- 
+
