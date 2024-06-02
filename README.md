@@ -1,5 +1,5 @@
 # LeGO: Leveraging a Surface Deformation Network for Animatable Stylized Face Generation with One Example
-
+[![arXiv](https://img.shields.io/badge/arXiv-2201.12345-brightgreen?style=flat&logo=arXiv)](https://arxiv.org/abs/2403.15227)
 ![Teaser Image](readme_images/teaser.png)
 
 ## Overview
@@ -9,10 +9,6 @@ Recent advances in 3D face stylization have made significant strides in few to z
 - **Pretraining DS**: Trained to generate versatile head meshes with different shapes and expressions using the FLAME model. 
 - **Fine-tuning DT**: Implements one-shot stylization schemes for 3D face meshes via domain adaptation and hierarchical rendering. 
 - **Training Mesh Agnostic Encoder (MAGE)**: Encodes diverse mesh topologies into a topology-invariant latent space for stylization.
-
-## Paper
-For more details, please refer to our paper:
-- [![arXiv](https://img.shields.io/badge/arXiv-2201.12345-brightgreen?style=flat&logo=arXiv)](https://arxiv.org/abs/2403.15227)
 
 
 
