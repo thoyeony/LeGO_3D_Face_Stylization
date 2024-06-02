@@ -44,15 +44,12 @@ The pretrained checkpoint of the source face deformation network (DS) can be dow
     - Place `mica.tar` under `LeGO_3D_Face_Stylization/`.
 
 3. **Download Text2Mesh and Modification**:
-    - In the training process, we use the CLIP module from the [Text2Mesh](https://github.com/threedle/text2mesh) repository.
+    - In the training process, we use the rendering module from the [Text2Mesh](https://github.com/threedle/text2mesh) repository.
     ```bash
     git clone https://github.com/threedle/text2mesh.git
     ```
-    - Place `mica.py` to the MICA directory provided from the following link:
-    [mica.py](https://drive.google.com/file/d/1p0HTYdYCJTuonMiOMK2BB7m1wA-7qoq7/view?usp=drive_link)
-    - Replace `models/` in the MICA directory with the folder provided from the following [link](https://drive.google.com/drive/folders/18lvZcKIfqb1rGdWO4-OijfikvcT7szT0?usp=drive_link)
-    - Download [FLAME2020](https://flame.is.tue.mpg.de/) and place it in `data/`.
-    - Place `mica.tar` under `LeGO_3D_Face_Stylization/`. 
+    - Replace `mesh.py` and `render.py` with the files provided from the following [link](https://drive.google.com/drive/folders/1i2HyrevcM-qlfey_f9R3Eu265e0HT652?usp=sharing)
+
 
 
 
