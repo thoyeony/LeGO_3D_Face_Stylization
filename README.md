@@ -8,7 +8,13 @@ Recent advances in 3D face stylization have made significant strides in few to z
 ## Features 
 - **Pretraining DS**: Trained to generate versatile head meshes with different shapes and expressions using the FLAME model. 
 - **Fine-tuning DT**: Implements one-shot stylization schemes for 3D face meshes via domain adaptation and hierarchical rendering. 
-- **Training Mesh Agnostic Encoder (MAGE)**: Encodes diverse mesh topologies into a topology-invariant latent space for stylization. 
+- **Training Mesh Agnostic Encoder (MAGE)**: Encodes diverse mesh topologies into a topology-invariant latent space for stylization.
+
+## Paper
+For more details, please refer to our paper:
+- [![Paper](https://img.shields.io/badge/Paper-Download-brightgreen?style=flat&logo=google-scholar)](link_to_your_paper)
+- [![arXiv](https://img.shields.io/badge/arXiv-2201.12345-brightgreen?style=flat&logo=arXiv)](link_to_your_arxiv)
+
 
 ## DS Checkpoints
 The pretrained checkpoint of the source face deformation network (DS) can be downloaded from the following link:
