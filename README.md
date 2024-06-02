@@ -55,7 +55,7 @@ You can download the pretrained checkpoint of the source face deformation networ
 To finetune DT for stylization:
 ```bash
 python oneshot_train.py --config ./configs/fine-tuning.yml   --name_data <style>
-
+```
 All styles to be trained are available under `train_exemplar/style` 
 
 ### Training Encoder
