@@ -1,7 +1,7 @@
 # [CVPR 2024 Highlight] LeGO: Leveraging a Surface Deformation Network for Animatable Stylized Face Generation with One Example
 [![arXiv](https://img.shields.io/badge/arXiv-2201.12345-brightgreen?style=flat&logo=arXiv)](https://arxiv.org/abs/2403.15227)
 https://kwanyun.github.io/lego/
-![Project Page](path/to/icon.png) [Visit the Project Page](https://kwanyun.github.io/lego/)
+[![Project Page](path/to/icon.png)](https://kwanyun.github.io/lego/)
 
 
 ## Overview
