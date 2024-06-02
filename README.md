@@ -49,25 +49,37 @@ You can download the pretrained checkpoint of the source face deformation networ
 5. **Download Checkpoints**:
     - Download the pretrained DS checkpoint from the provided link and place it in the `ckpt` directory.
 
-## Usage
+# Usage
 
-### Fine-tuning DT
+## Fine-tuning DT
 To finetune DT for stylization:
 ```bash
 python oneshot_train.py --config ./configs/fine-tuning.yml   --name_data <style>
 ```
 All styles to be trained are available under `train_exemplar/style` 
 
-### Training Encoder
+## Training Encoder
 
-### Inference
+## Inference
 
 
-## Contact
+# Contact
 
 For any inquiries, please contact the authors:
 
 - **Soyeon Yoon**: [thoyeony@kaist.ac.kr](mailto:thoyeony@kaist.ac.kr)
 - **Kwan Yun**: [yunandy@kaist.ac.kr](mailto:yunandy@kaist.ac.kr)
 
+# Citation
+```bash
+@article{yoon2024lego,
+  title={LeGO: Leveraging a Surface Deformation Network for Animatable Stylized Face Generation with One Example},
+  author={Yoon, Soyeon and Yun, Kwan and Seo, Kwanggyoon and Cha, Sihun and Yoo, Jung Eun and Noh, Junyong},
+  journal={arXiv preprint arXiv:2403.15227},
+  year={2024}
+}
+```
+
+# Credit
+This implementation builds upon <Deformed Implicit Field: Modeling 3D Shapes with Learned Dense Correspondence(Dif-net)< and <Deep Deformable 3D Caricature with Learned Shape Control (DD3C)>. We thank the authors for sharing the code for the work publicly.
 
