@@ -48,7 +48,7 @@ The pretrained checkpoint of the source face deformation network (DS) can be dow
     ```bash
     git clone https://github.com/threedle/text2mesh.git
     ```
-    - Replace `mesh.py` and `render.py` with the files provided from the following [link](https://drive.google.com/drive/folders/1i2HyrevcM-qlfey_f9R3Eu265e0HT652?usp=sharing)
+    - Add `mesh.py` and replace `mesh.py` and `render.py` with the files provided from the following [link](https://drive.google.com/drive/folders/1i2HyrevcM-qlfey_f9R3Eu265e0HT652?usp=sharing)
 
 
 
