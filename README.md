@@ -12,7 +12,8 @@ Recent advances in 3D face stylization have made significant strides in few to z
 
 ## Paper
 For more details, please refer to our paper:
-- [![arXiv](https://arxiv.org/abs/2403.15227)](link_to_your_arxiv)
+- [![arXiv](https://img.shields.io/badge/arXiv-2201.12345-brightgreen?style=flat&logo=arXiv)](https://arxiv.org/abs/2403.15227)
+
 
 
 ## DS Checkpoints
@@ -55,6 +56,14 @@ The pretrained checkpoint of the source face deformation network (DS) can be dow
 
 
 ## Usage
+
+
+## Contact
+
+For any inquiries, please contact the authors:
+
+- **Soyeon Yoon**: [thoyeony@kaist.ac.kr](mailto:thoyeony@kaist.ac.kr)
+- **Kwan Yun**: [yunandy@kaist.ac.kr](mailto:yunandy@kaist.ac.kr)ß
 
 ### Fine-tuning DT
 To finetune DT for stylization:
