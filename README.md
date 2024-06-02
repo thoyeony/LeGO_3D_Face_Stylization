@@ -76,7 +76,7 @@ For any inquiries, please contact the authors:
 - **Soyeon Yoon**: [thoyeony@kaist.ac.kr](mailto:thoyeony@kaist.ac.kr)
 - **Kwan Yun**: [yunandy@kaist.ac.kr](mailto:yunandy@kaist.ac.kr)
 
-# mega: Citation
+# :mega: Citation
 ```bash
 @article{yoon2024lego,
   title={LeGO: Leveraging a Surface Deformation Network for Animatable Stylized Face Generation with One Example},
