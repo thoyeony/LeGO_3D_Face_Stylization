@@ -65,8 +65,10 @@ python oneshot_train.py --config ./configs/fine-tuning.yml   --name_data <style>
 All styles to be trained are available under `train_exemplar/style` 
 
 ## Training Encoder
+Will be uploaded soon! 
 
 ## Inference
+Will be uploaded soon! 
 
 
 # :mailbox_with_mail: Contact
