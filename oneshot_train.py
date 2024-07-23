@@ -130,11 +130,11 @@ def train(
     with tqdm(total=iters*epochs) as pbar:
         train_losses = []
         losses = {}
-        LAMDA_RECON = lrecon
-        LAMDA_1 = l1
-        LAMDA_2 = l2
-        LAMDA_3 = l3
-        LAMDA_REG=lreg
+        LAMBDA_RECON = lrecon
+        LAMBDA_1 = l1
+        LAMBDA_2 = l2
+        LAMBDA_3 = l3
+        LAMBDA_REG=lreg
  
         
 
@@ -146,16 +146,16 @@ def train(
             for step in range(iters):
                 
                 if l2_mode == "Linear":
-                    LAMDA_2 = l2*step/(iters * epochs)
+                    LAMBDA_2 = l2*step/(iters * epochs)
                 elif l2_mode == "Binary":
                     if step > epochs*iters/2:
-                        LAMDA_2 = l2
+                        LAMBDA_2 = l2
                     else:
-                        LAMDA_2 = 0
+                        LAMBDA_2 = 0
                 elif l2_mode == "Full":
-                    LAMDA_2 = l2
+                    LAMBDA_2 = l2
                 elif l2_mode == "Zero":
-                    LAMDA_2 = 0
+                    LAMBDA_2 = 0
                 else:
                     assert True, "Mode Error"
                     
@@ -175,7 +175,7 @@ def train(
                 #2. Recontruction loss (Style, Style')
                 style_ref_intermediate = learnable_model.module.inference_back(dataset.vertices, flame_code_ref).to(device)
 
-                recon_loss = torch.nn.functional.mse_loss(style, style_ref_intermediate.squeeze(0))*LAMDA_RECON
+                recon_loss = torch.nn.functional.mse_loss(style, style_ref_intermediate.squeeze(0))*LAMBDA_RECON
                 
                 losses['RECON_LOSS'] = recon_loss
                 
@@ -186,7 +186,7 @@ def train(
                 ## Calculate the cosine similarity between stylized and stylized_intermediate 
                 clip_recon_loss = MSE(style_embeddings,style_ref_intermediate_embeddings)
                 
-                clip_recon_loss*= LAMDA_1
+                clip_recon_loss*= LAMBDA_1
             
                 losses['CLIP_RECON_LOSS'] = clip_recon_loss 
                                                 
@@ -218,10 +218,10 @@ def train(
                     #torch.nn.functional.mse_loss
                 clip_across_loss = MSE(VECTOR_REF, Vector_sample)
 
-                clip_across_loss*=LAMDA_2
+                clip_across_loss*=LAMBDA_2
                 
                 clip_in_loss = MSE(Vector_identity,Vector_style)
-                clip_in_loss*=LAMDA_3
+                clip_in_loss*=LAMBDA_3
                 
                 if normal_mode == 'ours':
                     flame_code_sample_exp = torch.cat((shape_codes, flame_code_ref[:,300:]), axis = -1)
@@ -237,7 +237,7 @@ def train(
                 else: 
                     assert True, "Mode Error"
     
-                cos_normal_loss = (1. - cosSim(normal_ref_style,normal_sample_style))*LAMDA_REG
+                cos_normal_loss = (1. - cosSim(normal_ref_style,normal_sample_style))*LAMBDA_REG
                 
                 
                 losses['CLIP_ACROSS_LOSS'] = clip_across_loss
