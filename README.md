@@ -20,9 +20,9 @@ Recent advances in 3D face stylization have made significant strides in few-shot
 - **Training Mesh Agnostic Encoder (MAGE)**: Encodes diverse mesh topologies into a topology-invariant latent space for stylization.
 
 ## DS & DT Checkpoints
-You can download the pretrained checkpoint of the source face deformation network (DS) from the following link:
-- [Pretrained Checkpoint for DS](https://drive.google.com/file/d/1GTQ90hhn09QEtBMQyQ_iuH7NVOrlia5P/view?usp=drive_link)
-You can download the pretrained checkpoint of the stylized face defor
+**Download Checkpoints**:
+    - Download the pretrained DS checkpoint from the [model_epoch_0400.pth](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) and place it in the `ckpt` directory.
+    - Download the pretrained DT checkpoint folder from the [/styles](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) and place it in the `ckpt` directory.
 
 ## Setup Instructions
 
@@ -47,7 +47,7 @@ You can download the pretrained checkpoint of the stylized face defor
     ```
     - Place `mica.py` in the MICA directory, which you can download from the following link:
     [mica.py](https://drive.google.com/file/d/1p0HTYdYCJTuonMiOMK2BB7m1wA-7qoq7/view?usp=drive_link)
-    - Replace the `models/` directory in the MICA directory with the folder provided from this [link](https://drive.google.com/drive/folders/18lvZcKIfqb1rGdWO4-OijfikvcT7szT0?usp=drive_link)
+    - Replace the `models/` directory in the MICA directory with the folder provided from this [link](https://drive.google.com/drive/folders/1pkEPgCqMm6jW1OaR_Op_3PdVCaA8_xbH?usp=sharing)
     - Download [FLAME2020](https://flame.is.tue.mpg.de/) and place it in the `data/` directory.
     - Place `mica.tar` under `LeGO_3D_Face_Stylization/`.
 
