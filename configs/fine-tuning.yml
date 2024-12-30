@@ -1,0 +1,24 @@
+experiment_name: Fine-tuning
+model_dir: ./training_result/fine-tuning/logs
+summary_dir: ./training_result/fine-tuning/summaries
+batch_size: 1
+lr: 3e-5
+epochs: 2
+lrecon: 80
+l1: 0.002
+l2: 0.006
+l3: 0.006
+lreg: 0.004
+l1_mode: CLIP 
+l2_mode: Full
+epochs_til_checkpoint: 1
+steps_til_summary: 100
+model_type: sine
+latent_dim_shape: 300
+latent_dim_expression: 100
+hidden_num: 256
+num_hidden_layers: 3
+hyper_hidden_layers: 1
+
+checkpoint_path: ./ckpt/model_epoch_0400.pth
+

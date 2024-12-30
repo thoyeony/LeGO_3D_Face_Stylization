@@ -1,0 +1,9 @@
+checkpoint_fixed_path: ./ckpt/model_epoch_0400.pth
+lr: 0.00006
+model_type: sine
+latent_dim_shape: 300
+latent_dim_expression: 100
+hidden_num: 256
+num_hidden_layers: 3
+hyper_hidden_layers: 1
+save_dir: ./animation result
