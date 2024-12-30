@@ -20,9 +20,8 @@ Recent advances in 3D face stylization have made significant strides in few-shot
 - **Training Mesh Agnostic Encoder (MAGE)**: Encodes diverse mesh topologies into a topology-invariant latent space for stylization.
 
 ## DS & DT Checkpoints
-**Download Checkpoints**:
-    - Download the pretrained DS checkpoint from the [model_epoch_0400.pth](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) and place it in the `ckpt` directory.
-    - Download the pretrained DT checkpoint folder from the [/styles](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) and place it in the `ckpt` directory.
+- Download the pretrained DS checkpoint from the [model_epoch_0400.pth](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) and place it in the `ckpt` directory.
+- Download the pretrained DT checkpoint folder from the [/styles](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) and place it in the `ckpt` directory.
 
 ## Setup Instructions
 
