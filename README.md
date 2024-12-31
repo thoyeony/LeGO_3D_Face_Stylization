@@ -68,7 +68,10 @@ python oneshot_train.py --config ./configs/fine-tuning.yml   --name_data <style>
 All styles to be trained are available under `train_exemplar/style` 
 
 ### Inference
-All input latents for the inference are derived from our pretrained encoder. 3D faces used for the inference are available under the `/test_data` directory.
+#### Inference Explanation 
+In the provided code setup, the encoder implementation has not been included. Instead, the latent representations (available in `/inference_input`) are precomputed using the pretrained encoder and supplied as direct inputs for inference. The 3D face data necessary for the process is available in the `/test_data` directory.
+
+
 
 
 **Generate Stylized 3D Face**
