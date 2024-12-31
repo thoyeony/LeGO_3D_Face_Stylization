@@ -93,12 +93,12 @@ python oneshot_train.py --config ./configs/fine-tuning.yml --name_data <style>
 - Use styles from `train_exemplar/style`
 - Recommended: 100 epochs for fine-tuning
 
-## Contact Information
+## :mailbox_with_mail: Contact
 
 - **Soyeon Yoon**: [thoyeony@kaist.ac.kr](mailto:thoyeony@kaist.ac.kr)
 - **Kwan Yun**: [yunandy@kaist.ac.kr](mailto:yunandy@kaist.ac.kr)
 
-## Citation
+## :mega: Citation
 ```bibtex
 @article{yoon2024lego,
   title={LeGO: Leveraging a Surface Deformation Network for Animatable Stylized Face Generation with One Example},
