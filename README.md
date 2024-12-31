@@ -60,13 +60,13 @@ bash ./require.sh
 ### Important Note
 The encoder implementation is not included. Precomputed latent representations are available in `/inference_input`. Required 3D face data is in `/test_data`.
 
-### Basic Stylized Face Generation
+### Generate Stylized 3D Face
 ```bash
 python inference.py --config ./configs/inference.yml --styles <list of styles>
 ```
 Styles available in `train_exemplar/style`
 
-### Topology-Specific Generation
+### Generate Stylized 3D Face with a Desired Topology
 ```bash
 python inference_desired_topology.py --config ./configs/inference_desired_topology.yml --styles <list of styles> --topology <desired topology>
 ```
@@ -76,7 +76,7 @@ Available topologies:
 - `FLAME`
 - `looped_modified`
 
-### Expression-Based Generation
+### Generate Stylized 3D Face with an Expression
 ```bash
 python animation.py --config ./configs/animation.yml --styles <style> --expression <expression>
 ```
