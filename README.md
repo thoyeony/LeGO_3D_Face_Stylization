@@ -14,20 +14,20 @@ Recent advances in 3D face stylization have made significant strides in few-shot
 
 
 ![Teaser Image](readme_images/method.png)
-## Core Components
+## Key Components
 
 - **Pretraining DS**: A sophisticated network trained on the FLAME model to generate versatile head meshes with diverse shapes and expressions
 - **Fine-tuning DT**: Advanced one-shot stylization pipeline for 3D face meshes using domain adaptation and hierarchical rendering
 - **Mesh Agnostic Encoder (MAGE)**: Novel encoder that processes meshes with varied topologies and maps them to a topology-invariant latent space
 
-## Technical Requirements
+## Requirements
 
 - Python 3.8+
 - PyTorch 1.10.1
 - Kaolin 0.13.0
 - Additional dependencies in `require.sh`
 
-## Installation Guide
+## Installation 
 
 1. **Repository Setup**
 ```bash
@@ -55,7 +55,7 @@ bash ./require.sh
 - Download [pretrained DS model](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) to `ckpt/model_epoch_0400.pth`
 - Download [pretrained DT styles](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) to `ckpt/styles/`
 
-## Usage Instructions
+## Demo (Inference)
 
 ### Important Note
 The encoder implementation is not included. Precomputed latent representations are available in `/inference_input`. Required 3D face data is in `/test_data`.
@@ -86,7 +86,7 @@ Supported expressions:
 - `angry`
 - `surprised`
 
-### DT Fine-tuning
+## DT Fine-tuning
 ```bash
 python oneshot_train.py --config ./configs/fine-tuning.yml --name_data <style>
 ```
