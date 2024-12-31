@@ -91,7 +91,7 @@ Supported expressions:
 python oneshot_train.py --config ./configs/fine-tuning.yml --name_data <style>
 ```
 - Use styles from `train_exemplar/style`
-- Recommended: 100 epochs for fine-tuning
+- Recommended: 100 iterations for fine-tuning
 
 ## :mailbox_with_mail: Contact
 
