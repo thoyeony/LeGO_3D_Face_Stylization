@@ -116,5 +116,5 @@ For any inquiries, please contact the authors:
 ```
 
 # Credit
-This implementation builds upon <Deformed Implicit Field: Modeling 3D Shapes with Learned Dense Correspondence> ([Dif-net](https://github.com/microsoft/DIF-Net))and Deep Deformable 3D Caricature with Learned Shape Control> ([DD3C](https://github.com/ycjungSubhuman/DeepDeformable3DCaricatures/tree/main)). Rendering code using kaolin has been adapted from [Text2Mesh](https://github.com/threedle/text2mesh).  We thank the authors for sharing the code for the work publicly.
+This implementation builds upon <Deformed Implicit Field: Modeling 3D Shapes with Learned Dense Correspondence> ([Dif-net](https://github.com/microsoft/DIF-Net))and <Deep Deformable 3D Caricature with Learned Shape Control> ([DD3C](https://github.com/ycjungSubhuman/DeepDeformable3DCaricatures/tree/main)). Rendering code using kaolin has been adapted from [Text2Mesh](https://github.com/threedle/text2mesh).  We thank the authors for sharing the code for the work publicly.
 
