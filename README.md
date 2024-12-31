@@ -108,7 +108,8 @@ python oneshot_train.py --config ./configs/fine-tuning.yml --name_data <style>
 }
 ```
 
-## Acknowledgments
+## 🙏 Acknowledgments
+
 
 This work builds upon several key projects:
 - [Dif-net](https://github.com/microsoft/DIF-Net) - Deformed Implicit Field: Modeling 3D Shapes with Learned Dense Correspondence
