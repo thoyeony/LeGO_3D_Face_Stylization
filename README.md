@@ -74,6 +74,7 @@ In the provided code setup, the encoder implementation has not been included. In
 ```bash
 python inference.py --config ./configs/inference.yml --styles <list of styles>
 ```
+All styles for the inference are available under `train_exemplar/style` 
 
 **Generate Stylized 3D Face with a Desired Topology**  
 
