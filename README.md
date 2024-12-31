@@ -19,10 +19,6 @@ Recent advances in 3D face stylization have made significant strides in few-shot
 - **Fine-tuning DT**: Implements one-shot stylization schemes for 3D face meshes via domain adaptation and hierarchical rendering.
 - **Training Mesh Agnostic Encoder (MAGE)**: Encodes diverse mesh topologies into a topology-invariant latent space for stylization.
 
-## DS & DT Checkpoints
-- Download the pretrained DS checkpoint from the [model_epoch_0400.pth](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) and place it in the `ckpt` directory.
-- Download the pretrained DT checkpoint folder from the [/styles](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) and place it in the `ckpt` directory.
-
 ## Setup Instructions
 
 ### Requirements
@@ -56,7 +52,8 @@ Recent advances in 3D face stylization have made significant strides in few-shot
     ```
 
 4. **Download Checkpoints**:
-    - Download the pretrained DS checkpoint from the provided link and place it in the `ckpt` directory.
+    - Download the pretrained DS checkpoint from the [model_epoch_0400.pth](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) and place it in the `ckpt` directory.
+    - Download the pretrained DT checkpoint folder from the [/styles](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) and place it in the `ckpt` directory.
 
 ## Usage
 
@@ -68,7 +65,6 @@ python oneshot_train.py --config ./configs/fine-tuning.yml   --name_data <style>
 All styles to be trained are available under `train_exemplar/style` 
 
 ### Inference
-#### Inference Explanation 
 In the provided code setup, the encoder implementation has not been included. Instead, the latent representations (available in `/inference_input`) are precomputed using the pretrained encoder and supplied as direct inputs for inference. The 3D face data necessary for the process is available in the `/test_data` directory.
 
 
