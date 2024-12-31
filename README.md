@@ -59,13 +59,13 @@ Recent advances in 3D face stylization have made significant strides in few-shot
 In the provided code setup, the encoder implementation has not been included. Instead, the latent representations (available in `/inference_input`) are precomputed using the pretrained encoder and supplied as direct inputs for inference. The 3D face data necessary for the process is available in the `/test_data` directory.
 
 
-**Generate Stylized 3D Face**
+## Generate Stylized 3D Face
 ```bash
 python inference.py --config ./configs/inference.yml --styles <list of styles>
 ```
 All styles for the inference are available under `train_exemplar/style` 
 
-**Generate Stylized 3D Face with a Desired Topology**  
+## Generate Stylized 3D Face with a Desired Topology
 
 You can generate a stylized 3D face by selecting one of the following available topologies:  
 - `mask`  
@@ -76,7 +76,7 @@ You can generate a stylized 3D face by selecting one of the following available 
 python inference_desired_topology.py --config ./configs/inference_desired_topology.yml --styles <list of styles> --topology <desired topology>
 ```
 
-**Generate Stylized 3D Face with an Expression**  
+## Generate Stylized 3D Face with an Expression
 
 You can generate a stylized 3D face by selecting one of the following available expressions:  
 - `sad`  
