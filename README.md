@@ -55,19 +55,8 @@ Recent advances in 3D face stylization have made significant strides in few-shot
     - Download the pretrained DS checkpoint from the [model_epoch_0400.pth](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) and place it in the `ckpt` directory.
     - Download the pretrained DT checkpoint folder from the [/styles](https://drive.google.com/drive/folders/1II18BGnK65hY54ATc26LaSAOlReejqHk?usp=sharing) and place it in the `ckpt` directory.
 
-## Usage
-
-### Fine-tuning DT
-To finetune DT for stylization:
-```bash
-python oneshot_train.py --config ./configs/fine-tuning.yml   --name_data <style>
-```
-All styles to be trained are available under `train_exemplar/style` 
-
-### Inference
+## Inference (Demo)
 In the provided code setup, the encoder implementation has not been included. Instead, the latent representations (available in `/inference_input`) are precomputed using the pretrained encoder and supplied as direct inputs for inference. The 3D face data necessary for the process is available in the `/test_data` directory.
-
-
 
 
 **Generate Stylized 3D Face**
@@ -97,6 +86,13 @@ You can generate a stylized 3D face by selecting one of the following available 
 ```bash
 python animation.py --config ./configs/animation.yml --styles <style> --expression <expression>
 ```
+
+## Fine-tuning DT
+To finetune DT for stylization:
+```bash
+python oneshot_train.py --config ./configs/fine-tuning.yml   --name_data <style>
+```
+All styles to be trained are available under `train_exemplar/style` 
 
 # :mailbox_with_mail: Contact
 
