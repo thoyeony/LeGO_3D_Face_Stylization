@@ -16,9 +16,9 @@ Recent advances in 3D face stylization have made significant strides in few-shot
 ![Teaser Image](readme_images/method.png)
 ## Key Components
 
-- **Pretraining DS**: A sophisticated network trained on the FLAME model to generate versatile head meshes with diverse shapes and expressions
-- **Fine-tuning DT**: Advanced one-shot stylization pipeline for 3D face meshes using domain adaptation and hierarchical rendering
-- **Mesh Agnostic Encoder (MAGE)**: Novel encoder that processes meshes with varied topologies and maps them to a topology-invariant latent space
+- **Pretraining DS**: Trained to generate versatile head meshes with different shapes and expressions using the FLAME model.
+- **Fine-tuning DT**: Implements one-shot stylization schemes for 3D face meshes via domain adaptation and hierarchical rendering.
+- **Training Mesh Agnostic Encoder (MAGE)**: Encodes diverse mesh topologies into a topology-invariant latent space for stylization.
 
 ## Requirements
 
@@ -112,8 +112,8 @@ python oneshot_train.py --config ./configs/fine-tuning.yml --name_data <style>
 
 
 This work builds upon several key projects:
-- [Dif-net](https://github.com/microsoft/DIF-Net) - Deformed Implicit Field: Modeling 3D Shapes with Learned Dense Correspondence
-- [DD3C](https://github.com/ycjungSubhuman/DeepDeformable3DCaricatures/tree/main) - Deep Deformable 3D Caricature with Learned Shape Control
+- [Dif-net](https://github.com/microsoft/DIF-Net) 
+- [DD3C](https://github.com/ycjungSubhuman/DeepDeformable3DCaricatures/tree/main) 
 - [Text2Mesh](https://github.com/threedle/text2mesh) - Rendering implementation
 
 We thank all authors for making their code publicly available.
