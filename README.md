@@ -16,9 +16,9 @@ Recent advances in 3D face stylization have made significant strides in few-shot
 ![Teaser Image](readme_images/method.png)
 ## Key Components
 
-- **Pretraining DS**: Trained to generate versatile head meshes with different shapes and expressions using the FLAME model.
-- **Fine-tuning DT**: Implements one-shot stylization schemes for 3D face meshes via domain adaptation and hierarchical rendering.
-- **Training Mesh Agnostic Encoder (MAGE)**: Encodes diverse mesh topologies into a topology-invariant latent space for stylization.
+- **Pretraining DS**: A network trained on the FLAME model to generate versatile head meshes with diverse shapes and expressions.
+- **Fine-tuning DT**: One-shot stylization pipeline for for 3D face meshes via domain adaptation and hierarchical rendering.
+- **Training Mesh Agnostic Encoder (MAGE)**: An encoder that processes meshes with varied topologies and maps them to a topology-invariant latent space
 
 ## Requirements
 
