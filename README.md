@@ -31,7 +31,7 @@ Recent advances in 3D face stylization have made significant strides in few-shot
 
 1. **Repository Setup**
 ```bash
-git clone https://github.com/your-repo/LeGO_3D_Stylization.git
+git clone https://github.com/thoyeony/LeGO_3D_Face_Stylization.git
 cd LeGO_3D_Stylization
 ```
 
