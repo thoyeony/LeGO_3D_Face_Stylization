@@ -43,8 +43,8 @@ bash ./install.sh
 ```
 
 3. **Required Components**
-- Download and place [mica.py](https://drive.google.com/file/d/1p0HTYdYCJTuonMiOMK2BB7m1wA-7qoq7/view?usp=drive_link) in MICA directory
-- Replace MICA's `models/` directory with [this version](https://drive.google.com/drive/folders/1pkEPgCqMm6jW1OaR_Op_3PdVCaA8_xbH?usp=sharing)
+- Download and place [mica.py](https://drive.google.com/file/d/1SAp3QMboRwRp378TTGX119fOss98JMSf/view?usp=sharing) in MICA directory
+- Replace MICA's `models/` directory with [this version](https://drive.google.com/drive/folders/1-ZqpVcwUS1I270Or2ptPPAf88Vh4haXX?usp=drive_link)
 - Install [FLAME2020](https://flame.is.tue.mpg.de/) to `data/` directory
 - Place `mica.tar` in `LeGO_3D_Face_Stylization/`
 
